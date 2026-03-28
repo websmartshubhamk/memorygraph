@@ -1,0 +1,17 @@
+src/
+tests/
+.claude/
+*.db
+*.db-wal
+*.db-shm
+*.log
+coverage/
+.env
+.env.*
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+.eslintrc.json
+.prettierrc
+CLAUDE.md
+HANDOFF_INSTRUCTIONS.md

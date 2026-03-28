@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(where nvm:*)",
+      "Bash(nvm list:*)",
+      "Bash(where fnm:*)",
+      "Bash(winget install:*)",
+      "Bash(fnm list:*)",
+      "Bash(nvm.exe list:*)",
+      "Bash(npm config:*)",
+      "Bash(where cl.exe)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(winget --version)",
+      "Bash(choco --version)",
+      "Bash(winget list:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
