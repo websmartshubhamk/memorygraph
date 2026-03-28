@@ -17,7 +17,11 @@
       "Bash(winget list:*)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e \"const t = require.resolve\\(''@xenova/transformers''\\); console.log\\(t\\)\")",
+      "Bash(find C:/Users/proje/Documents/MasterClaude/projects/memorygraph/src -type f -name *.ts)",
+      "Bash(npm run:*)"
     ]
   }
 }
