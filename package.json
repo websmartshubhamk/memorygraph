@@ -6,7 +6,7 @@
   "licence": "MIT",
   "type": "module",
   "bin": {
-    "memorygraph": "./dist/index.js"
+    "memorygraph": "dist/index.js"
   },
   "files": ["dist"],
   "scripts": {
