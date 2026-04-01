@@ -22,6 +22,31 @@ Claude Code has no long-term memory between conversations. Each session starts f
 - **Discovers connections** — Louvain community detection reveals hidden relationships between entities
 - **Grows smarter over time** — Memories that get accessed more often become stronger; unused ones decay gracefully
 
+### A Shared Brain Across Every Session
+
+Without MemoryGraph, every terminal is isolated. Terminal 3 has no idea what Terminal 7 discovered. You end up repeating yourself constantly.
+
+With MemoryGraph, every session shares the same knowledge graph:
+
+| Session | Action | Result |
+|---------|--------|--------|
+| **Session 1** | Builds a new project | Stores architecture decisions, tech stack, key file paths |
+| **Session 2** | Opens later in a new terminal | Recalls everything — already knows the full context |
+| **Session 5** | Hits a bug and finds the root cause | Stores the finding so no session repeats the investigation |
+| **Session 8** | Works on the same area | Recalls the bug finding instantly — zero repeated work |
+
+**Without MemoryGraph:**
+- Every terminal starts from scratch
+- You explain context every time
+- Discoveries are lost between sessions
+- Repeated investigations, repeated work
+
+**With MemoryGraph:**
+- Every terminal shares the same brain
+- Context carries over automatically
+- Decisions and discoveries persist forever
+- Say it once — every session knows it
+
 ### Key Benefits
 
 | Benefit | How |
